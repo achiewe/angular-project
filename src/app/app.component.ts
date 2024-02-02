@@ -11,6 +11,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'angular-project';
   inputType = 'text';
+  showButton = true;
 
   notify(text: string) {
     alert(`hello ${text}`);

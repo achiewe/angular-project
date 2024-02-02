@@ -6,3 +6,5 @@
 <span> please enter your name:</span>
 <input #yourName [type]="inputType" />
 <button (click)="notify(yourName.value)">click me</button>
+
+<button *ngIf="showButton">click here</button>
