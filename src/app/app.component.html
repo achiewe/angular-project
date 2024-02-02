@@ -7,4 +7,4 @@
 <input #yourName [type]="inputType" />
 <button (click)="notify(yourName.value)">click me</button>
 
-<button *ngIf="showButton">click here</button>
+<button *ngIf="numberOfItems > 5">click here</button>
