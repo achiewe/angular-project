@@ -11,4 +11,8 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'angular-project';
   inputType = 'password';
+
+  notify() {
+    alert('hello world');
+  }
 }
