@@ -8,7 +8,8 @@
 <button (click)="notify(yourName.value)">click me</button>
 <button *ngIf="numberOfItems > 5">click here</button>
 <div>
-  <div *ngFor="let fruit of data">
+  <div *ngFor="let fruit of data; let i = index">
+    {{ i }}:
     {{ fruit.name }}
     {{ fruit.color }}
     {{ fruit.taste }}
