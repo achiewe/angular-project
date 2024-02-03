@@ -9,6 +9,8 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
+
+// component variables
 export class AppComponent {
   title = 'angular-project';
   inputType = 'text';
